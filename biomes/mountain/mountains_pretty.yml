@@ -1,0 +1,27 @@
+extends: "MOUNTAINS_PRETTY_A"
+noise-equation: "if(y>0,((-((y / 100)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)| + max(noise2(x/2, z/2)*2 + noise2(x*8, z*8)*0.35, 0),1)"
+id: "MOUNTAINS_PRETTY"
+erode: RIVER_M_P
+color: 0x507050
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+slant:
+  palette:
+    - "BLOCK:minecraft:bedrock": -512
+    - BEDROCK_MOST: -510
+    - BEDROCK_HALF: -509
+    - BEDROCK_LITTLE: -508
+    - DEPTHS: -350
+    - MOUNTAIN_PRETTY: 255
+  threshold: 0.22
+vanilla: PLAINS
+tags:
+  - "LAND"

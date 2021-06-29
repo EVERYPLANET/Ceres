@@ -1,0 +1,99 @@
+extends: "MOUNTAINS_PRETTY"
+id: "MOUNTAINS_JUNGLE"
+erode: RIVER_M_J
+color: 0x2c4205
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - MOUNTAIN_JUNGLE: 255
+vanilla: JUNGLE
+tags:
+  - "LAND"
+  - "HOT"
+  - "WET"
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 10
+    items:
+      - JUNGLE_BUSH: 16
+      - SMALL_JUNGLE: 12
+      - JUNGLE: 16
+      - JUNGLE_COCOA: 3
+    y:
+      min: 62
+      max: 84
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 100
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.075
+      fractal:
+        type: FBm
+        octaves: 1
+    items:
+      - BLANK: 7
+      - LEAVES: 3
+    y:
+      min: 62
+      max: 180
+  - density: 50
+    items:
+      - TALL_GRASS: 3
+      - GRASS: 7
+      - SMALL_ROCK: 1
+    y:
+      min: 62
+      max: 180
+  - density: 14
+    items:
+      - CEILING_LEAVES: 2
+      - VINES: 2
+      - VINES_TALL: 1
+      - STALACTITE: 1
+      - STALAGMITE: 1
+      - SHROOMLIGHT: 2
+    y:
+      min: 15
+      max: 62
+  - density: 7
+    items:
+      - STALACTITE: 1
+      - STALAGMITE: 2
+      - SHROOMLIGHT: 1
+    y:
+      min: 8
+      max: 14
+  - density: 12
+    items:
+      - CEILING_LEAVES: 2
+      - VINES: 2
+      - VINES_TALL: 1
+      - STALACTITE: 1
+      - SHROOMLIGHT: 2
+    y:
+      min: 63
+      max: 96
+  - density: 50
+    y:
+      min: -500
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1

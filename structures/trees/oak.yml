@@ -1,0 +1,18 @@
+id: "OAK"
+scripts:
+  - "oak_med01": 4
+  - "oak_med02": 4
+  - "oak_med03": 4
+  - "oak_med04": 4
+  - "oak_med05": 4
+  - "oak_reg01": 10
+  - "oak_reg02": 10
+  - "oak_reg03": 10
+  - "oak_reg04": 10
+  - "oak_reg05": 10
+  - "oak_reg06": 10
+y-offset: -1
+
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"

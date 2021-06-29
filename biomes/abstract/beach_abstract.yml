@@ -1,0 +1,19 @@
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + (noise2(x, z)/5),1)"
+color: 0xfade55
+id: "BEACH_ABSTRACT"
+tags:
+  - "RIVER_ERODE"
+  - "BEACH"
+abstract: true
+extends: BASIC_ORES
+carving: {}
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+  - DEEPSLATE: 20
+  - SANDY: 64
+  - GRASSY: 255
+erode: RIVER

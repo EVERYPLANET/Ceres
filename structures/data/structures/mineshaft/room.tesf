@@ -1,0 +1,22 @@
+id "shaft_room";
+
+str plank = "minecraft:dark_oak_planks";
+
+if(getBiome(0,0,0) != "MESA"){
+    plank = "minecraft:oak_planks";
+
+}
+
+num wid = (randomInt(4) + 3) * 3 - 2;
+num len = (randomInt(4) + 3) * 3 - 2;
+
+for(num x = - len/2; x <= len/2; x = x + 1) {
+    for(num z = - wid/2; z <= wid/2; z = z + 1) {
+        dynamicBlock(x, -2, z, plank, false);
+        dynamicBlock(x, 2, z, plank, false);
+        for(num y = -1; y <= 1; y = y + 1) {
+            if(!(floor(x) % 3 == 0 && (floor(z) % 3 == 0))) block(x, y, z, "minecraft:air");
+            else dynamicBlock(x, y, z, plank);
+        }
+    }
+}

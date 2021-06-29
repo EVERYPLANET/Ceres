@@ -1,0 +1,20 @@
+layers:
+  - materials:
+      - "minecraft:moss_block": 1
+      - "minecraft:coarse_dirt": 2
+      - "minecraft:rooted_dirt": 2
+      - "minecraft:podzol": 5
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1
+id: "DARK_GRASS"
+noise:
+  type: DomainWarp
+  warp:
+    type: WhiteNoise
+  amplitude: 3
+  function:
+    type: OpenSimplex2
+    frequency: 0.03

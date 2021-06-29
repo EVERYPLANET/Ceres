@@ -1,0 +1,58 @@
+extends: "PLAINS_ABSTRACT"
+id: "MUSHROOM"
+color: 0xff00ff
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - MYCELIUM_SHORE: 62
+  - MYCELIUM: 255
+biome-noise:
+  type: OpenSimplex2
+  frequency: 0.01
+tags:
+  - "LAND_MUSHROOM"
+vanilla: MUSHROOM_FIELDS
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 3
+    items:
+      - RED_MUSHROOM: 1
+      - BROWN_MUSHROOM: 1
+    y:
+      min: 62
+      max: 84
+
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 4
+    y:
+      min: 62
+      max: 84
+    items:
+      - RED_MUSHROOM: 1
+      - BROWN_MUSHROOM: 2
+
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - DUNGEON
+  - MINESHAFT
+
+# Carving and ores covered by super biome

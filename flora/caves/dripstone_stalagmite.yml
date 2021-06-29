@@ -1,0 +1,12 @@
+layers:
+  - materials:
+      - "minecraft:pointed_dripstone[vertical_direction=up,thickness=base]": 1
+      - "minecraft:air": 4
+    layers: 1
+
+id: "DRIP_STALAGMITE"
+spawnable:
+  - "minecraft:dripstone_block"
+replaceable:
+  - "minecraft:air"
+ceiling: false

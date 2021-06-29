@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:snow_block": 5
+      - "minecraft:cyan_terracotta": 1
+      - "minecraft:stone": 2
+    layers: 3
+  - materials: "minecraft:stone"
+    layers: 1
+id: "MOUNTAIN_SNOW_MIX"
+noise:
+  type: OpenSimplex2
+  frequency: 0.075
+  salt: 3

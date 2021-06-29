@@ -1,0 +1,13 @@
+id: "BIRCH"
+scripts:
+  - "birch1": 17
+  - "birch2": 17
+  - "birch3": 17
+  - "birch4": 17
+  - "birch5": 17
+  - "birch6": 17
+  - "birch7": 17
+
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"

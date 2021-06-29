@@ -1,0 +1,17 @@
+extends: "DEEP_OCEAN_ABSTRACT"
+id: "COLD_OCEAN_DEEP"
+vanilla: COLD_OCEAN
+color: 0x202038
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+tags:
+  - "OCEAN"
+  - "OCEAN_DEEP"

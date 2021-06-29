@@ -1,0 +1,22 @@
+layers:
+  - materials:
+      - "minecraft:snow_block": 3
+      - "minecraft:powder_snow": 1
+
+    layers: 3
+  - materials:
+      - "minecraft:blue_ice": 2
+      - "minecraft:packed_ice": 4
+    layers: 10
+  - materials: "minecraft:stone"
+    layers: 1
+id: "MOUNTAIN_ICE"
+noise:
+  dimensions: 3
+  type: Expression
+  equation: "((simplex(x, y, z)+1) * max((-y+20)/20,0))-1"
+  functions:
+    simplex:
+      dimensions: 3
+      frequency: 0.3
+      type: OpenSimplex2

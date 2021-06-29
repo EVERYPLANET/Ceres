@@ -1,0 +1,10 @@
+abstract: true
+id: DEPOSIT
+replace:
+  - "minecraft:stone"
+  - "minecraft:deepslate"
+  - "minecraft:obsidian"
+size:
+  min: 32
+  max: 32
+type: VANILLA

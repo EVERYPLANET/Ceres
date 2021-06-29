@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:snow_block": 3
+    layers: 3
+  - materials: "minecraft:stone"
+    layers: 1
+id: "MOUNTAIN_SNOW"
+noise:
+  type: OpenSimplex2
+  frequency: 0.075
+  salt: 3

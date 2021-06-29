@@ -1,0 +1,144 @@
+# This biome is the parent of ALL biomes in the default config.
+
+id: "BASIC_ORES"
+abstract: true
+extends: CARVING
+
+
+
+
+carving:
+  CAVE: 60
+  RAVINE: 1
+  CAVE_DRIPSTONE: 40
+
+structures:
+  - STRONGHOLD
+  - DUNGEON
+  - MINESHAFT
+
+
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 70
+      - POPPY: 5
+  - density: 50
+    y:
+      min: -500
+      max: 150
+    items:
+      - DRIP_STALAGMITE: 1
+slabs:
+  enable: true
+  threshold: 0.0075
+  palettes:
+    "minecraft:red_sand": "BLOCK:minecraft:red_sandstone_slab"
+    "minecraft:stone": "BLOCK:minecraft:stone_slab"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_slab"
+    "minecraft:sand": "BLOCK:minecraft:sandstone_slab"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_slab"
+    "minecraft:snow_block": "SNOW_LAYERS"
+  use-stairs-if-available: true
+  stair-palettes:
+    "minecraft:red_sand": "BLOCK:minecraft:red_sandstone_stairs"
+    "minecraft:stone": "BLOCK:minecraft:stone_stairs"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_stairs"
+    "minecraft:sand": "BLOCK:minecraft:sandstone_stairs"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_stairs"
+ores:
+  DIRT:
+    min: 4
+    max: 20
+    min-height: -250
+    max-height: 84
+  GRAVEL:
+    min: 4
+    max: 13
+    min-height: -450
+    max-height: 84
+  DIORITE:
+    min: 4
+    max: 19
+    min-height: -140
+    max-height: 84
+  ANDESITE:
+    min: 2
+    max: 20
+    min-height: -390
+    max-height: 84
+  GRANITE:
+    min: 0
+    max: 20
+    min-height: -260
+    max-height: 84
+  TUFF:
+    min: 0
+    max: 20
+    min-height: -250
+    max-height: 30
+  COAL_ORE:
+    min: 6
+    max: 14
+    min-height: -240
+    max-height: 128
+  COAL_ORE:
+    min: 1
+    max: 14
+    min-height: 30
+    max-height: 128
+  IRON_ORE:
+    min: 15
+    max: 30
+    min-height: -300
+    max-height: 64
+  IRON_ORE:
+    min: 2
+    max: 3
+    min-height: 30
+    max-height: 50
+  GOLD_ORE:
+    min: 1
+    max: 13
+    min-height: -30
+    max-height: 32
+  GOLD_ORE:
+    min: 6
+    max: 45
+    min-height: -512
+    max-height: -350
+  LAPIS_ORE:
+    min: 1
+    max: 64
+    min-height: -360
+    max-height: 30
+  REDSTONE_ORE:
+    min: 6
+    max: 64
+    min-height: -349
+    max-height: 16
+  DIAMOND_ORE:
+    min: 1
+    max: 10
+    min-height: -512
+    max-height: 15
+  DIAMOND_ORE:
+    min: 2
+    max: 21
+    min-height: -512
+    max-height: -300
+  COPPER_ORE:
+    min: 4
+    max: 12
+    min-height: -240
+    max-height: 128
+  COPPER_ORE:
+    min: 10
+    max: 15
+    min-height: 64
+    max-height: 128
+    

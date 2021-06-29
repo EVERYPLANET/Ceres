@@ -1,0 +1,6 @@
+material: "minecraft:gravel"
+extends: DEPOSIT
+id: "GRAVEL"
+size:
+  min: 16
+  max: 22

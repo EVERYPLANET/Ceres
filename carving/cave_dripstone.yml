@@ -1,0 +1,59 @@
+id: "CAVE_DRIPSTONE"
+extends: CAVE_ABSTRACT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 2, "minecraft:dripstone_block": 1 }
+        y: 255
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:dripstone_block": 1,"minecraft:stone": 2 }
+        y: 255
+      - materials: { "minecraft:stone": 1 }
+        y: 18
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:dripstone_block": 15, "minecraft:stone": 6, "minecraft:water[level=1]": 1 }
+        y: 900
+length:
+  min: 80
+  max: 100
+start:
+  x: 1
+  y: 0.25
+  z: 1
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+  height:
+    min: -505
+    max: 58
+cut:
+  top: 0
+  bottom: 2
+mutate:
+  x: 1
+  y: 3
+  z: 1
+  radius: 0.225

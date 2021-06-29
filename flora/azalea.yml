@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:azalea": 1
+    layers: 1
+id: "AZALEA"
+spawnable:
+  - "minecraft:rooted_dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"
