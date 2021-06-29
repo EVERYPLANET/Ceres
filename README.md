@@ -3,7 +3,9 @@ A Terra terrain config pack built from the Default Pack.
 > Note: Ceres is still in very early development. It is not recommended to be used in production yet. 
 ## Credits
 Default Pack: dfsek 
+
 Carving: Astrash
+
 Mr.Wizz88: Oak and Pine tree assets.
 
 ## Platforms
