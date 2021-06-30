@@ -4,7 +4,7 @@ material-overrides:
   "minecraft:tuff": "minecraft:deepslate_diamond_ore"
   "minecraft:obsidian": "minecraft:deepslate_diamond_ore"
 size:
-  min: 8
+  min: 2
   max: 8
 extends: MINERAL
 id: "DIAMOND_ORE"

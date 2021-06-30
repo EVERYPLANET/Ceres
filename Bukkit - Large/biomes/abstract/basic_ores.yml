@@ -22,7 +22,7 @@ flora:
   - density: 40
     y:
       min: 62
-      max: 84
+      max: 150
     items:
       - TALL_GRASS: 15
       - GRASS: 70
@@ -30,7 +30,7 @@ flora:
   - density: 50
     y:
       min: -500
-      max: 150
+      max: 80
     items:
       - DRIP_STALAGMITE: 1
 slabs:
@@ -53,7 +53,7 @@ slabs:
 ores:
   DIRT:
     min: 4
-    max: 20
+    max: 14
     min-height: -250
     max-height: 84
   GRAVEL:
@@ -63,54 +63,39 @@ ores:
     max-height: 84
   DIORITE:
     min: 4
-    max: 19
+    max: 10
     min-height: -140
     max-height: 84
   ANDESITE:
     min: 2
-    max: 20
+    max: 12
     min-height: -390
     max-height: 84
   GRANITE:
     min: 0
-    max: 20
+    max: 12
     min-height: -260
     max-height: 84
   TUFF:
     min: 0
-    max: 20
+    max: 8
     min-height: -250
     max-height: 30
   COAL_ORE:
     min: 6
-    max: 14
+    max: 30
     min-height: -240
     max-height: 128
-  COAL_ORE:
-    min: 1
-    max: 14
-    min-height: 30
-    max-height: 128
   IRON_ORE:
-    min: 15
-    max: 30
-    min-height: -300
-    max-height: 64
-  IRON_ORE:
-    min: 2
-    max: 3
-    min-height: 30
-    max-height: 50
+    min: 20
+    max: 40
+    min-height: 0
+    max-height: 63
   GOLD_ORE:
     min: 1
     max: 13
     min-height: -30
     max-height: 32
-  GOLD_ORE:
-    min: 6
-    max: 45
-    min-height: -512
-    max-height: -350
   LAPIS_ORE:
     min: 1
     max: 64
@@ -122,23 +107,13 @@ ores:
     min-height: -349
     max-height: 16
   DIAMOND_ORE:
-    min: 1
-    max: 10
-    min-height: -512
-    max-height: 15
-  DIAMOND_ORE:
-    min: 2
-    max: 21
-    min-height: -512
-    max-height: -300
-  COPPER_ORE:
-    min: 4
-    max: 12
-    min-height: -240
-    max-height: 128
+    min: 0
+    max: 3
+    min-height: 0
+    max-height: 16
   COPPER_ORE:
     min: 10
     max: 15
-    min-height: 64
-    max-height: 128
+    min-height: 0
+    max-height: 96
     

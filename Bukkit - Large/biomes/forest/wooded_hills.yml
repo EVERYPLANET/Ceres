@@ -1,0 +1,64 @@
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)| + |noise3(x, y, z) * 1|,1)"
+extends: "FOREST_ABSTRACT"
+id: "WOODED_HILLS"
+color: 0x056621
+strucutres:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEPTHS: -350
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: WOODED_HILLS
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 45
+    y:
+      min: 62
+      max: 120
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 750
+      - POPPY: 50
+      - ROSE_BUSH: 4
+      - LILAC: 4
+      - LEAVES: 100
+  - density: 50
+    y:
+      min: -500
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 3
+    items:
+      - OAK: 6
+      - BIRCH: 1
+    y:
+      min: 58
+      max: 84
