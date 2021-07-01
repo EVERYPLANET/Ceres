@@ -10,7 +10,7 @@ Carving: Astrash
 Mr.Wizz88: Oak and Pine tree assets.
 
 ## Platforms
-This pack is currently developed on and **for Bukkit platforms**. In future I hope to have a seperate branch for a fabric pack that better utilizes Terra's capabilities. 
+This pack is currently developed on and **for Bukkit platforms**. Only support minecraft version is 1.17 and most likely will not support older versions. In future I hope to have a seperate branch for a fabric pack that better utilizes Terra's capabilities. 
 
 ## Pack Options
 There are currently two packs (large and normal). The large pack runs from -512 to 512 and will contain extra underground features, this pack will not work in normal height worlds. The normal pack runs in a standard 1.17 world height and will not contains extra underground features due to space limitations.
