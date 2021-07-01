@@ -1,0 +1,83 @@
+extends: "FOREST_ABSTRACT"
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)|  + |noise3(x, y, z) * 0.5|,1)"
+id: "FLOWER_FOREST"
+color: 0x056621
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: FLOWER_FOREST
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 45
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 70
+      - GRASS: 400
+      - POPPY: 40
+      - ROSE_BUSH: 40
+      - LILAC: 40
+      - LEAVES: 80
+      - DANDELION: 40
+      - ALLIUM: 40
+      - AZURE_BLUET: 40
+      - RED_TULIP: 40
+      - PINK_TULIP: 40
+      - WHITE_TULIP: 40
+      - ORANGE_TULIP: 40
+      - OXEYE_DAISY: 40
+      - CORNFLOWER: 40
+      - LILAC: 40
+      - ROSE_BUSH: 40
+      - PEONY: 40
+  - density: 50
+    y:
+      min: 0
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 3
+    items:
+      - OAK: 6
+      - BIRCH: 1
+    y:
+      min: 58
+      max: 84
+  - density: 1
+    items:
+      - SMALL_ROCK: 15
+      - MEDIUM_ROCK: 10
+      - LARGE_ROCK: 30
+    y:
+      min: 58
+      max: 84

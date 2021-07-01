@@ -1,0 +1,54 @@
+extends: "FOREST_ABSTRACT"
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)|  + |noise3(x, y, z) * 1.5|,1)"
+id: "PINE_FOREST"
+color: 0x056621
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - DARK_GRASS: 255
+vanilla: FOREST
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 20
+    y:
+      min: 62
+      max: 100
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 75
+      - SWEET_BERRIES: 3
+      - AZALEA: 1
+  - density: 50
+    y:
+      min: 0
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 7
+    items:
+      - PINE: 1
+    y:
+      min: 58
+      max: 120

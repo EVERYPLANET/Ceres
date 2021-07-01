@@ -1,0 +1,104 @@
+id: MOUNTAINS_PRETTY_FLORA
+abstract: true
+extends: BASIC_ORES
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 100
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.075
+      fractal:
+        type: FBm
+        octaves: 1
+    items:
+      - BLANK: 7
+      - LEAVES: 3
+    y:
+      min: 62
+      max: 180
+  - density: 50
+    items:
+      - TALL_GRASS: 3
+      - GRASS: 7
+      - SMALL_ROCK: 1
+    y:
+      min: 62
+      max: 180
+
+ores:
+  DIRT:
+    min: 4
+    max: 14
+    min-height: 0
+    max-height: 84
+  GRAVEL:
+    min: 4
+    max: 13
+    min-height: 0
+    max-height: 84
+  DIORITE:
+    min: 4
+    max: 10
+    min-height: 0
+    max-height: 84
+  ANDESITE:
+    min: 2
+    max: 12
+    min-height: 0
+    max-height: 84
+  GRANITE:
+    min: 0
+    max: 12
+    min-height: 0
+    max-height: 84
+  TUFF:
+    min: 0
+    max: 8
+    min-height: 0
+    max-height: 30
+  COAL_ORE:
+    min: 6
+    max: 30
+    min-height: 0
+    max-height: 128
+  IRON_ORE:
+    min: 20
+    max: 40
+    min-height: 0
+    max-height: 63
+  GOLD_ORE:
+    min: 1
+    max: 13
+    min-height: 0
+    max-height: 32
+  LAPIS_ORE:
+    min: 1
+    max: 64
+    min-height: 0
+    max-height: 30
+  REDSTONE_ORE:
+    min: 6
+    max: 64
+    min-height: 0
+    max-height: 16
+  DIAMOND_ORE:
+    min: 0
+    max: 3
+    min-height: 0
+    max-height: 16
+  COPPER_ORE:
+    min: 10
+    max: 15
+    min-height: 0
+    max-height: 96
+  EMERALD_ORE:
+    min: 3
+    max: 10
+    min-height: 0
+    max-height: 255
+    

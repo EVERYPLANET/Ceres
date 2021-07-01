@@ -1,0 +1,17 @@
+layers:
+  - materials:
+      - "minecraft:deepslate": 3
+      - "minecraft:blackstone": 7
+      - "minecraft:magma_block": 4
+      - "minecraft:obsidian": 10
+    layers: 1
+id: DEPTHS
+noise:
+  dimensions: 3
+  type: Expression
+  equation: "((simplex(x, y, z)+1) * max((-y+20)/20,0))-1"
+  functions:
+    simplex:
+      dimensions: 3
+      frequency: 0.05
+      type: OpenSimplex2

@@ -1,0 +1,63 @@
+extends: "FOREST_ABSTRACT"
+id: "TAIGA"
+color: 0x0b6659
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 70
+      - SWEET_BERRIES: 1
+  - density: 50
+    y:
+      min: 0
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - TAIGA: 255
+vanilla: TAIGA
+structures:
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+tags:
+  - "LAND"
+  - "COLD"
+  - "RIVER_ERODE"
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 3
+    items:
+      - SPRUCE: 1
+    y:
+      min: 58
+      max: 92

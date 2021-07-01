@@ -1,0 +1,24 @@
+id: "SPRUCE"
+scripts:
+  - "tall_spruce1": 17
+  - "tall_spruce2": 15
+  - "tall_spruce3": 15
+  - "tall_spruce4": 17
+  - "tall_spruce5": 15
+  - "tall_spruce6": 15
+  - "tall_spruce7": 15
+  - "tall_spruce8": 7
+  - "tall_spruce9": 7
+  - "tall_spruce10": 8
+  - "tall_spruce11": 8
+  - "tall_spruce12": 2
+  #- "tall_spruce13": 2
+  #- "tall_spruce14": 2
+  #- "tall_spruce15": 3
+  #- "tall_spruce16": 2
+y-offset: -2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
+  - "minecraft:snow_block"

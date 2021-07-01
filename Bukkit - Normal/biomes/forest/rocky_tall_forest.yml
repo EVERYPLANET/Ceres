@@ -1,0 +1,73 @@
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|,1)"
+extends: "FOREST_ABSTRACT"
+id: "ROCKY_TALL_FOREST"
+color: 0x8ab33f
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRITTY: 255
+vanilla: JUNGLE
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 75
+      - POPPY: 5
+      - SUNFLOWER: 1
+      - BLUE_ORCHID: 1
+      - ROSE_BUSH: 1
+      - LEAVES: 10
+  - density: 50
+    y:
+      min: 0
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 5
+    items:
+      - SMALL_ROCK: 15
+      - MEDIUM_ROCK: 10
+      - LARGE_ROCK: 30
+    y:
+      min: 58
+      max: 84
+  - density: 6
+    items:
+      - GRAY_OAK: 90
+      - OAK: 10
+    y:
+      min: 58
+      max: 84
+

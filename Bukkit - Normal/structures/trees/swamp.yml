@@ -1,0 +1,8 @@
+id: "SWAMP"
+scripts:
+  - "swamp01": 1
+  - "swamp02": 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:coarse_dirt"
+y-offset: -5

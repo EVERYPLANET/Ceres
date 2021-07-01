@@ -1,0 +1,33 @@
+id "shaft_frame_wood";
+
+str wood = "minecraft:dark_oak_wood";
+str fence = "minecraft:dark_oak_fence";
+str plank = "minecraft:dark_oak_planks";
+
+if(getBiome(0,0,0) != "MESA"){
+    wood = "minecraft:oak_wood";
+    fence = "minecraft:oak_fence";
+    plank = "minecraft:oak_planks";
+
+}
+if(check(0,2,0) != "AIR" || check(0,2,1) != "AIR" || check (0,2,-1) != "AIR"){
+    if(getMark(0, -1, -1) != "loot") dynamicBlock(0,-1,-1, fence);
+    dynamicBlock(0,0,-1,fence);
+    if(getMark(0, -1, 1) != "loot") dynamicBlock(0,-1,1,fence);
+    dynamicBlock(0,0,1,fence);
+    dynamicBlock(0,1,-1,wood);
+    dynamicBlock(0,1,0,wood);
+    dynamicBlock(0,1,1,wood);
+    block(0,0,0,"minecraft:air");
+    if(getMark(0, -1, 0) != "loot") block(0,-1,0,"minecraft:air");
+}
+for(num x = -1; x <= 1; x = x + 1) {
+    dynamicBlock(0,-2,x,plank, false);
+}
+
+if(randomInt(2) == 0) block(0,-1,0,"minecraft:rail[shape=east_west]");
+if(randomInt(25) == 0) {
+    block(-1, -1, -1, "minecraft:chest[facing=south]");
+    loot(-1, -1, -1, "mineshaft.json");
+    setMark(-1, -1, -1, "loot");
+}

@@ -1,0 +1,78 @@
+extends: "MOUNTAINS_PRETTY"
+id: "MOUNTAINS_STONE"
+noise-equation: "if(y>0,((-((y / 80)^2)) + 1) + |((noise2(x, z)+0.5) / 1.5)| + max(noise2(x/2, z/2)*4 + noise2(x*8, z*8)*0.45, 0) ,1)"
+prevent-smooth: true
+ocean:
+  palette: FROZEN_OCEAN
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - MOUNTAIN_SNOW: 255
+  - MOUNTAIN_SNOW_MIX: 100
+  - MOUNTAIN_GRASS: 74
+  #- MOUNTAIN_STONE_GRASS: 108
+  #- MOUNTAIN_GRASS: 84
+vanilla: MOUNTAINS
+slant:
+  palette:
+    - "BLOCK:minecraft:bedrock": 0
+    - BEDROCK_MOST: 2
+    - BEDROCK_HALF: 4
+    - BEDROCK_LITTLE: 5
+
+    - MOUNTAIN_STONE: 255
+  threshold: 0.22
+erode: RIVER_M
+color: 0x606060
+tags:
+  - "LAND"
+  - "COLD"
+flora:
+  - density: 80
+    y:
+      min: 62
+      max: 156
+    items:
+      - SNOW: 1
+  - density: 12
+    items:
+      - STALACTITE: 1
+      - STALAGMITE: 1
+      - CEILING_ICE: 1
+    y:
+      min: 15
+      max: 62
+  - density: 50
+    y:
+      min: 0
+      max: 60
+    items:
+      - DRIP_STALAGMITE: 1
+  - density: 8
+    items:
+      - STALACTITE: 1
+      - STALAGMITE: 1
+    y:
+      min: 8
+      max: 14
+  - density: 8
+    items:
+      - STALACTITE: 1
+      - CEILING_ICE: 1
+    y:
+      min: 63
+      max: 96
+carving:
+  CAVE_TUNDRA: 55
+  RAVINE: 2
+trees:
+  - density: 2
+    items:
+      - SPRUCE: 1
+    y:
+      min: 62
+      max: 190

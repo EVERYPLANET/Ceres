@@ -1,0 +1,24 @@
+id: "PINE"
+scripts:
+  - "redwood01": 4
+  - "redwood02": 4
+  - "redwood03": 4
+  - "redwood04": 4
+  - "redwood05": 4
+  - "redwood06": 4
+  - "redwood07": 4
+  - "redwood08": 4
+  - "redwood09": 4
+  - "redwood10": 4
+  - "redwood11": 4
+  - "redwood12": 4
+  - "redwood13": 1
+  - "redwood14": 1
+  - "redwood15": 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:coarse_dirt"
+  - "minecraft:moss_block"
+  - "minecraft:rooted_dirt"
+  - "minecraft:podzol"
+y-offset: -5

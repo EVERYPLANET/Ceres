@@ -1,0 +1,20 @@
+extends: "DEEP_OCEAN_ABSTRACT"
+id: "FROZEN_OCEAN_DEEP"
+vanilla: FROZEN_OCEAN
+color: 0x404090
+palette:
+  - "BLOCK:minecraft:bedrock": -512
+  - BEDROCK_MOST: -510
+  - BEDROCK_HALF: -509
+  - BEDROCK_LITTLE: -508
+  - DEEPSLATE: 20
+  - DEPTHS: -350
+
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  palette: "FROZEN_OCEAN"
+  level: 62
+tags:
+  - "OCEAN"
+  - "OCEAN_DEEP"
