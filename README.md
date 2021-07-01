@@ -14,6 +14,9 @@ This pack is currently developed on and **for Bukkit platforms**. Only support m
 
 ## Pack Options
 There are currently two packs (large and normal). The large pack runs from -512 to 512 and will contain extra underground features, this pack will not work in normal height worlds. The normal pack runs in a standard 1.17 world height and will not contains extra underground features due to space limitations.
+
+You can download the height datapack for the large pack here: [large_height.zip](https://github.com/EVERYPLANET/Ceres/files/6751143/1024.height.zip)
+
 > The large pack contains extremely unfinished underground features right now. The normal pack is edited from the large pack, so if running it on a normal sized worlds you may experience out of range crashes sometimes. This will be fixed soon.
 
 ## Features
