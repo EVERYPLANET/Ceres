@@ -12,8 +12,12 @@ Mr.Wizz88: Oak and Pine tree assets.
 ## Platforms
 This pack is currently developed on and **for Bukkit platforms**. In future I hope to have a seperate branch for a fabric pack that better utilizes Terra's capabilities. 
 
+## Pack Options
+There are currently two packs (large and normal). The large pack runs from -512 to 512 and will contain extra underground features, this pack will not work in normal height worlds. The normal pack runs in a standard 1.17 world height and will not contains extra underground features due to space limitations.
+> The large pack contains extremely unfinished underground features right now. The normal pack is edited from the large pack, so if running it on a normal sized worlds you may experience out of range crashes sometimes. This will be fixed soon.
+
 ## Features
-In it's current state, Ceres works with an extra tall world (-512 - 256+). This is because of extra mining features added to underground areas. It's likely that this height will change in future, and a pack for standard world height will be created. 
+In it's current state, Ceres Large works with an extra tall world (-512 - 256+). This is because of extra mining features added to underground areas. It's likely that this height will change in future, and a pack for standard world height will be created. 
 
 Ceres currently doesn't differ much from the default pack (hence why I havent submitted it to the main terra packs page <.<). It includes a couple extra biomes (Hill variants of bamboo forests, birch forests, and dark oak forests), some custom trees (Oak, Pine, Spruce, and birch.), custom villages (Plains, desert, fantasy, spruce, and campsites.) and improved mountains. 
 
