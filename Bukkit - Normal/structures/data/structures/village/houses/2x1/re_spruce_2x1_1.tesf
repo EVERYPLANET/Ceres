@@ -1499,7 +1499,7 @@ block(5, y + 5, 8, "minecraft:spruce_fence[east=true,north=false,south=false,wat
 block(5, y + 5, 9, "minecraft:air");
 block(5, y + 5, 11, "minecraft:spruce_planks");
 block(5, y + 5, 12, "minecraft:chest[facing=east,type=single,waterlogged=false]");
-loot(5, y + 5, 12, "village_shepard.json");
+loot(5, y + 5, 12, "village_sheperd.json");
 block(5, y + 5, 13, "minecraft:air");
 block(5, y + 5, 14, "minecraft:spruce_planks");
 block(5, y + 5, 15, "minecraft:air");
