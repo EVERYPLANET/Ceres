@@ -30,7 +30,7 @@ flora:
   - density: 20
     y:
       min: 62
-      max: 300
+      max: 250
     items:
       - SWEET_BERRIES: 1
       - GRASS: 7
