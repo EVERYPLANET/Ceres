@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:grass": 1
+    layers: 1
+
+id: "CAVE_GRASS"
+spawnable:
+  - "minecraft:moss_block"
+replaceable:
+  - "minecraft:air"
+ceiling: false

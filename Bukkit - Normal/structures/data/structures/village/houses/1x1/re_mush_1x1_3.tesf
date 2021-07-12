@@ -952,6 +952,7 @@ block(3, y + 2, 0, "minecraft:air");
 block(3, y + 3, -9, "minecraft:air");
 block(3, y + 3, -8, "minecraft:dark_oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]");
 block(3, y + 3, -7, "minecraft:chest[facing=south,type=single,waterlogged=false]");
+loot(3, y + 3, -7, "village_blacksmith.json");
 block(3, y + 3, -6, "minecraft:air");
 block(3, y + 3, -5, "minecraft:air");
 block(3, y + 3, -4, "minecraft:air");

@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum]": 1
+    layers: 1
+  - materials:
+      - "minecraft:pointed_dripstone[vertical_direction=down,thickness=tip]": 1
+    layers: 1
+
+id: "DRIP_STALACTITE_L"
+spawnable:
+  - "minecraft:dripstone_block"
+replaceable:
+  - "minecraft:air"
+ceiling: true

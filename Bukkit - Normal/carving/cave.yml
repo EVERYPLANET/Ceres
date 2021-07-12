@@ -13,7 +13,7 @@ palette:
       - materials: { "minecraft:air": 1 }
         y: 255
       - materials: { "minecraft:lava": 1 }
-        y: -480
+        y: 8
   outer:
     replace-blacklist: false
     replace: [ ]

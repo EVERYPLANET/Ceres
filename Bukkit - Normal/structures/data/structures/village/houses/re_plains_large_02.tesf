@@ -948,7 +948,7 @@ block(6, y + 2, 6, "minecraft:wheat[age=7]");
 block(6, y + 2, 7, "minecraft:air");
 block(6, y + 2, 8, "minecraft:air");
 block(6, y + 2, 9, "minecraft:air");
-block(6, y + 2, 10, "minecraft:emerald_block");
+
 block(6, y + 2, 11, "minecraft:air");
 block(6, y + 2, 12, "minecraft:wheat[age=7]");
 block(6, y + 2, 13, "minecraft:wheat[age=7]");

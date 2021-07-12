@@ -1351,7 +1351,6 @@ block(2, y + 2, -8, "minecraft:oak_log[axis=y]");
 block(2, y + 2, -7, "minecraft:oak_planks");
 block(2, y + 2, -6, "minecraft:air");
 block(2, y + 2, -5, "minecraft:air");
-block(2, y + 2, -4, "minecraft:emerald_block");
 block(2, y + 2, -3, "minecraft:air");
 block(2, y + 2, -2, "minecraft:oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]");
 block(2, y + 2, -1, "minecraft:air");

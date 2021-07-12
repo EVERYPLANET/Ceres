@@ -12,6 +12,8 @@ palette:
     layers:
       - materials: { "minecraft:air": 1 }
         y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
   top:
     replace-blacklist: false
     replace:
@@ -33,7 +35,7 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:dripstone_block": 15, "minecraft:stone": 6, "minecraft:water[level=1]": 1 }
+      - materials: { "minecraft:dripstone_block": 15, "minecraft:stone": 6}
         y: 900
 length:
   min: 80
@@ -48,7 +50,7 @@ start:
     z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
   height:
     min: 4
-    max: 58
+    max: 45
 cut:
   top: 0
   bottom: 2

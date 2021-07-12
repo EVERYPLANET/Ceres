@@ -1,4 +1,4 @@
-id: "CAVE_TUNDRA"
+id: "CAVE_LUSH"
 extends: CAVE_ABSTRACT
 palette:
   inner:
@@ -19,14 +19,14 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 2, "minecraft:cobblestone": 1,"minecraft:powder_snow": 1 }
+      - materials: { "minecraft:stone": 14, "minecraft:moss_block": 10 , "minecraft:rooted_dirt": 7 }
         y: 255
   outer:
     replace-blacklist: false
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:packed_ice": 1,"minecraft:powder_snow": 1, "minecraft:stone": 2 }
+      - materials: { "minecraft:moss_block": 1,"minecraft:stone": 2 }
         y: 255
       - materials: { "minecraft:stone": 1 }
         y: 18
@@ -35,11 +35,27 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:packed_ice": 4 }
-        y: 255
-      - materials: { "minecraft:packed_ice": 2, "minecraft:stone": 1 }
-        y: 18
-      - materials: { "minecraft:packed_ice": 1, "minecraft:stone": 2 }
-        y: 17
-      - materials: { "minecraft:stone": 1 }
-        y: 16
+      - materials: { "minecraft:moss_block": 15, "minecraft:stone": 6, "minecraft:clay": 7}
+        y: 900
+length:
+  min: 80
+  max: 100
+start:
+  x: 1
+  y: 0.25
+  z: 1
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*10, (z+position)*10)"
+  height:
+    min: 4
+    max: 45
+cut:
+  top: 0
+  bottom: 2
+mutate:
+  x: 1
+  y: 3
+  z: 1
+  radius: 0.225

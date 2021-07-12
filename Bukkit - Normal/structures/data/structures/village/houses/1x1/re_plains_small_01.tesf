@@ -924,7 +924,6 @@ block(1, y + 1, 0, "minecraft:air");
 block(1, y + 2, -7, "minecraft:oak_planks");
 block(1, y + 2, -6, "minecraft:air");
 block(1, y + 2, -5, "minecraft:air");
-block(1, y + 2, -4, "minecraft:emerald_block");
 block(1, y + 2, -3, "minecraft:air");
 block(1, y + 2, -2, "minecraft:oak_planks");
 block(1, y + 2, -1, "minecraft:air");

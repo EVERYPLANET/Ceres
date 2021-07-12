@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:hanging_roots": 1
+    layers: 1
+id: "HANGING_ROOTS"
+physics: true
+ceiling: true
+spawnable:
+  - "minecraft:rooted_dirt"
+replaceable:
+  - "minecraft:air"

@@ -1119,7 +1119,6 @@ block(3, y + 1, 4, "minecraft:air");
 block(3, y + 1, 5, "minecraft:air");
 block(3, y + 1, 6, "minecraft:air");
 block(3, y + 1, 7, "minecraft:air");
-block(3, y + 1, 8, "minecraft:emerald_block");
 block(3, y + 1, 9, "minecraft:air");
 block(3, y + 1, 10, "minecraft:air");
 block(3, y + 1, 11, "minecraft:air");

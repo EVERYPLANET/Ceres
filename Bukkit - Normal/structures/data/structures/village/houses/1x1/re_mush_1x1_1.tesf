@@ -1560,7 +1560,6 @@ block(0, y + 4, -8, "minecraft:vine[east=false,north=false,south=true,up=false,w
 block(0, y + 4, -7, "minecraft:white_wool");
 block(0, y + 4, -6, "minecraft:lantern[hanging=false,waterlogged=false]");
 block(0, y + 4, -5, "minecraft:air");
-block(0, y + 4, -4, "minecraft:emerald_block");
 block(0, y + 4, -3, "minecraft:air");
 block(0, y + 4, -2, "minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]");
 block(0, y + 4, -1, "minecraft:grass");
@@ -1866,6 +1865,7 @@ block(1, y + 4, -6, "minecraft:air");
 block(1, y + 4, -5, "minecraft:air");
 block(1, y + 4, -4, "minecraft:air");
 block(1, y + 4, -3, "minecraft:chest[facing=north,type=single,waterlogged=false]");
+loot(1, y + 4, -3, "village_cartographer.json");
 block(1, y + 4, -2, "minecraft:white_wool");
 block(1, y + 4, -1, "minecraft:stripped_spruce_log[axis=y]");
 block(1, y + 4, 0, "minecraft:air");

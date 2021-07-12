@@ -324,11 +324,11 @@ biomes:
           type: REPLACE
           from: "BIOME:PLAINS"
           to:
-            - MOUNTAINS_STONE: 6 #mountain cold biomes
+            - MOUNTAINS_STONE: 4 #mountain cold biomes
             - TUNDRA: 4 # Super cold biomes
             - TAIGA: 2 # Taiga buffer zone
-            - PLAINS: 8 # Temperate biomes
-            - JUNGLE: 18 # Warm biomes
+            - PLAINS: 12 # Temperate biomes
+            - JUNGLE: 13 # Warm biomes
           noise: *climate # Use climate noise
       - mutate:
           type: REPLACE
@@ -410,8 +410,8 @@ biomes:
           type: REPLACE
           from: "BIOME:TUNDRA"
           to:
-            - SNOWY_TAIGA: 8
-            - TAIGA: 8
+            - SNOWY_TAIGA: 5
+            - TAIGA: 5
             - TAIGA_HILLS: 2
             - TUNDRA: 4
             - YELLOWSTONE: 4
