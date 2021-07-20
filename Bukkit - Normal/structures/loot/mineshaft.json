@@ -21,11 +21,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:iron_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 16,
-          "name": "minecraft:bundle"
         }
       ]
     },
