@@ -5,6 +5,6 @@ material-overrides:
   "minecraft:obsidian": "minecraft:deepslate_gold_ore"
 size:
   min: 9
-  max: 9
+  max: 13
 extends: MINERAL
 id: "GOLD_ORE"

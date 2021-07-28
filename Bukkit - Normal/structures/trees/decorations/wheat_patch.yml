@@ -1,0 +1,5 @@
+id: "WHEAT_PATCH"
+scripts:
+  - "wheat_patch": 1
+spawnable:
+  - "minecraft:grass_block"

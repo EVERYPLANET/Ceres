@@ -5,6 +5,6 @@ material-overrides:
   "minecraft:obsidian": "minecraft:deepslate_redstone_ore"
 extends: MINERAL
 size:
-  min: 8
-  max: 8
+  min: 3
+  max: 10
 id: "REDSTONE_ORE"

@@ -24,7 +24,7 @@ flora:
       min: 62
       max: 150
     items:
-      - TALL_GRASS: 15
+      - TALL_GRASS: 7
       - GRASS: 70
       - POPPY: 5
   - density: 30
@@ -49,6 +49,7 @@ flora:
       - CAVE_MOSS: 1
       - SMALL_DRIPLEAF: 1
       - HANGING_ROOTS: 1
+      - AZALEA: 1
       - SPORE_BLOSSOM: 1
 slabs:
   enable: true
@@ -100,37 +101,37 @@ ores:
     max-height: 30
   COAL_ORE:
     min: 6
-    max: 30
+    max: 26
     min-height: 0
     max-height: 128
   IRON_ORE:
-    min: 20
-    max: 40
+    min: 10
+    max: 20
     min-height: 0
     max-height: 63
   GOLD_ORE:
-    min: 1
-    max: 13
+    min: 7
+    max: 20
     min-height: 0
     max-height: 32
   LAPIS_ORE:
     min: 1
-    max: 64
+    max: 15
     min-height: 0
     max-height: 30
   REDSTONE_ORE:
-    min: 6
-    max: 64
-    min-height: 0
+    min: 1
+    max: 8
+    min-height: 1
     max-height: 16
   DIAMOND_ORE:
-    min: 0
+    min: 2
     max: 3
     min-height: 0
     max-height: 16
   COPPER_ORE:
-    min: 10
-    max: 15
+    min: 0
+    max: 10
     min-height: 0
     max-height: 96
     

@@ -31,13 +31,13 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
-  - density: 50
+  - density: 35
     y:
       min: 62
       max: 84
     items:
-      - TALL_GRASS: 150
-      - GRASS: 700
+      - TALL_GRASS: 50
+      - GRASS: 400
       - DANDELION: 1
       - OXEYE_DAISY: 1
       - CORNFLOWER: 1
@@ -68,6 +68,7 @@ flora:
       - CAVE_MOSS: 1
       - SMALL_DRIPLEAF: 1
       - HANGING_ROOTS: 1
+      - AZALEA: 1
       - SPORE_BLOSSOM: 1
 trees:
   - density: 0.75
@@ -83,5 +84,17 @@ trees:
     y:
       min: 58
       max: 92
-
+  - density: 0.1
+    items:
+      - WHEAT_PATCH: 1
+    y:
+      min: 58
+      max: 92
+  - density: 0.2
+    items:
+      - OAK: 6
+      - BIRCH: 1
+    y:
+      min: 58
+      max: 84
 # Carving and ores covered by super biome

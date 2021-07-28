@@ -27,7 +27,30 @@ flora:
       - GRASS: 700
       - BLUE_ORCHID: 20
       - ROOT: 3
-
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - DRIP_STALAGMITE_B: 1
+      - DRIP_STALAGMITE_L: 1
+      - DRIP_STALAGMITE_T: 1
+      - DRIP_STALACTITE_B: 1
+      - DRIP_STALACTITE_L: 1
+      - DRIP_STALACTITE_T: 1
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - CAVE_VINES_L: 1
+      - CAVE_VINES_S: 1
+      - CAVE_GRASS: 1
+      - CAVE_MOSS: 1
+      - SMALL_DRIPLEAF: 1
+      - HANGING_ROOTS: 1
+      - AZALEA: 1
+      - SPORE_BLOSSOM: 1
 carving:
   CAVE_SWAMP: 55
 
@@ -45,10 +68,16 @@ trees:
     y:
       min: 48
       max: 49
-  - density: 2
+  - density: 0.4
     items:
       - SWAMP: 2
       - OAK: 1
     y:
       min: 62
+      max: 92
+  - density: 0.1
+    items:
+      - WHEAT_PATCH: 1
+    y:
+      min: 58
       max: 92

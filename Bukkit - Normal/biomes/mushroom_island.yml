@@ -25,10 +25,11 @@ trees:
     y:
       min: 48
       max: 49
-  - density: 3
+  - density: 2
     items:
-      - RED_MUSHROOM: 1
-      - BROWN_MUSHROOM: 1
+      - MUSHROOM: 5
+      - RED_MUSHROOM: 6
+      - BROWN_MUSHROOM: 6
     y:
       min: 62
       max: 84
@@ -47,7 +48,30 @@ flora:
     items:
       - RED_MUSHROOM: 1
       - BROWN_MUSHROOM: 2
-
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - DRIP_STALAGMITE_B: 1
+      - DRIP_STALAGMITE_L: 1
+      - DRIP_STALAGMITE_T: 1
+      - DRIP_STALACTITE_B: 1
+      - DRIP_STALACTITE_L: 1
+      - DRIP_STALACTITE_T: 1
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - CAVE_VINES_L: 1
+      - CAVE_VINES_S: 1
+      - CAVE_GRASS: 1
+      - CAVE_MOSS: 1
+      - SMALL_DRIPLEAF: 1
+      - HANGING_ROOTS: 1
+      - AZALEA: 1
+      - SPORE_BLOSSOM: 1
 structures:
   - VILLAGE_PLAINS
   - STRONGHOLD

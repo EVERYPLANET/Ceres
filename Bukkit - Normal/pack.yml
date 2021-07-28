@@ -20,6 +20,9 @@ blend:
     step: 3
     elevation: 4
 
+addons:
+  - ItemsAdder
+
 beta:
   carving: true
 
@@ -288,13 +291,13 @@ biomes:
     source:
       type: NOISE
       biomes:
-        OCEAN: 1
-        PLAINS: 3
+        OCEAN: 2
+        PLAINS: 2
       noise:
         type: FBm
         function:
           type: OpenSimplex2
-          frequency: 0.008
+          frequency: 0.08
     stages:
       - expand:
           type: FRACTAL
@@ -319,7 +322,7 @@ biomes:
           noise: &climate # This noise will be used elsewhere for climate.
             type: OpenSimplex2 # Use Simplex, so hot cannot be directly next to cold.
             salt: 2
-            frequency: 0.025
+            frequency: 0.015
       - mutate: # Land climate distribution
           type: REPLACE
           from: "BIOME:PLAINS"
@@ -328,7 +331,8 @@ biomes:
             - TUNDRA: 4 # Super cold biomes
             - TAIGA: 2 # Taiga buffer zone
             - PLAINS: 12 # Temperate biomes
-            - JUNGLE: 13 # Warm biomes
+            - JUNGLE: 10 # Warm biomes
+            - DESERT: 5 # Warm dry biomes
           noise: *climate # Use climate noise
       - mutate:
           type: REPLACE
@@ -354,7 +358,7 @@ biomes:
           to:
             - JUNGLE: 3
             - SAVANNA: 2
-            - DESERT: 4
+            - DESERT: 1
           noise:
             type: OpenSimplex2 # Use Simplex, so wet cannot be directly next to dry.
             salt: 5
@@ -377,6 +381,7 @@ biomes:
             - MESA: 6
             - ERODED_MESA: 1
             - DESERT: 18
+            - DRYLANDS: 5
             - SAVANNA: 12
             - ARID_MOUNTAINS: 6
           noise: *biome-distribute
@@ -395,6 +400,7 @@ biomes:
           from: "BIOME:PLAINS"
           to:
             - FOREST: 20
+            - MAPLE_FOREST: 15
             - WOODED_HILLS: 5
             - BIRCH_FOREST: 8
             - FLOWER_FOREST: 8
@@ -432,8 +438,8 @@ biomes:
             - MOUNTAINS_MEADOW: 8
             - MOUNTAINS_EDGE: 1
             - MOUNTAINS_TAIGA_EDGE: 1
-            - SNOWY_TAIGA: 8
-            - TUNDRA: 4
+            - SNOWY_TAIGA: 4
+            - TUNDRA: 2
           noise: &biome-distribute
             type: Cellular # Use cellular to increase biome size.
             return: CellValue
@@ -486,6 +492,17 @@ biomes:
           to:
             - "OCEAN_DEEP": 7
             - "MUSHROOM": 1
+          noise:
+            type: Cellular
+            frequency: 0.2
+            return: CellValue
+            salt: 21
+      - mutate: # Randomize Cold/Frozen oceans.
+          type: REPLACE
+          from: "BIOME:OCEAN_DEEP"
+          to:
+            - "OCEAN_DEEP": 7
+            - "DIORITE_ISLANDS": 1
           noise:
             type: Cellular
             frequency: 0.2

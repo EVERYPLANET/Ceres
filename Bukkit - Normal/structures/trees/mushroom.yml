@@ -1,0 +1,26 @@
+id: "MUSHROOM"
+scripts:
+  - "gray_mushroom": 1
+  - "MUSHROOM1": 2
+  - "MUSHROOM3": 2
+  - "MUSHROOM4": 2
+  - "MUSHROOM5": 2
+  - "MUSHROOM6": 2
+  - "MUSHROOM7": 2
+  - "MUSHROOM8": 2
+  - "MUSHROOM9": 2
+  - "MUSHROOM10": 2
+  - "MUSHROOM11": 2
+  - "MUSHROOM12": 2
+  - "MUSHROOM13": 2
+  - "MUSHROOM14": 2
+  - "MUSHROOM15": 2
+  - "MUSHROOM16": 2
+  - "MUSHROOM17": 2
+  - "MUSHROOM18": 2
+y-offset: -2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:mycelium"
+  - "minecraft:coarse_dirt"

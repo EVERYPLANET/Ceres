@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:white_concrete": 5
+      - "minecraft:white_concrete_powder": 2
+    layers: 2
+id: "DIORITE4"
+noise:
+  type: OpenSimplex2
+  fractal:
+    octaves: 2
+    type: FBm
+  frequency: 0.8
+  salt: 4

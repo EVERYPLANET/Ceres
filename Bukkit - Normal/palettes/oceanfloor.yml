@@ -8,4 +8,11 @@ layers:
   - materials: "minecraft:stone"
     layers: 1
 id: "OCEANFLOOR"
-
+noise:
+  type: DomainWarp
+  warp:
+    type: WhiteNoise
+  amplitude: 3
+  function:
+    type: OpenSimplex2
+    frequency: 0.03

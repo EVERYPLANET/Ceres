@@ -1,0 +1,107 @@
+extends: "FOREST_ABSTRACT"
+id: "MAPLE_FOREST"
+
+noise-equation: "if(y>0,((-((y / base)^2)) + 1) + |noise2(x/4.5, z/4.5)|,1)"
+variables:
+  base: 64
+elevation:
+  equation: "min(floor(((|noise2(x, z)|) + 0.1)*2)*0.175, 2)"
+
+color: 0x056621
+strucutres:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 2
+  - BEDROCK_HALF: 4
+  - BEDROCK_LITTLE: 5
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: SAVANNA
+
+slant:
+  palette:
+    - "BLOCK:minecraft:bedrock": 0
+    - BEDROCK_MOST: 2
+    - BEDROCK_HALF: 4
+    - BEDROCK_LITTLE: 5
+    - DEEPSLATE: 20
+    - RIVER_BOTTOM: 58
+    - RIVER_SHORE: 60
+    - COBBLEY: 255
+  threshold: 0.1
+
+tags:
+  - "LAND"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 45
+    y:
+      min: 62
+      max: 120
+    items:
+      - TALL_GRASS: 70
+      - GRASS: 750
+      - POPPY: 50
+      - ROSE_BUSH: 4
+      - LILAC: 4
+      - LEAVES: 40
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - DRIP_STALAGMITE_B: 1
+      - DRIP_STALAGMITE_L: 1
+      - DRIP_STALAGMITE_T: 1
+      - DRIP_STALACTITE_B: 1
+      - DRIP_STALACTITE_L: 1
+      - DRIP_STALACTITE_T: 1
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - CAVE_VINES_L: 1
+      - CAVE_VINES_S: 1
+      - CAVE_GRASS: 1
+      - CAVE_MOSS: 1
+      - SMALL_DRIPLEAF: 1
+      - HANGING_ROOTS: 1
+      - AZALEA: 1
+      - SPORE_BLOSSOM: 1      
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 2
+    items:
+      - MAPLE: 6
+      - BIRCH: 2
+      - OAK: 1
+    y:
+      min: 58
+      max: 120
+  - density: 5
+    items:
+      - SMALL_ROCK: 15
+      - MEDIUM_ROCK: 10
+      - LARGE_ROCK: 30
+    y:
+      min: 58
+      max: 84

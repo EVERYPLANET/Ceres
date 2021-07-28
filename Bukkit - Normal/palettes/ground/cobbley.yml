@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:stone": 1
+      - "minecraft:andesite": 2
+      - "minecraft:cobblestone": 4
+    layers: 1
+id: COBBLEY
+noise:
+  type: OpenSimplex2
+  frequency: 0.075
+  salt: 3

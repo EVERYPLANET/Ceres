@@ -11,6 +11,7 @@ scripts:
   - "oak_reg04": 10
   - "oak_reg05": 10
   - "oak_reg06": 10
+  - "oak_tree": 25
 y-offset: -1
 
 spawnable:

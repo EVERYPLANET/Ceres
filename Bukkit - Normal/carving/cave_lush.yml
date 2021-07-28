@@ -35,7 +35,7 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:moss_block": 15, "minecraft:stone": 6, "minecraft:clay": 7}
+      - materials: { "minecraft:moss_block": 150, "minecraft:stone": 60, "minecraft:clay": 70, "minecraft:sponge": 1}
         y: 900
 length:
   min: 80

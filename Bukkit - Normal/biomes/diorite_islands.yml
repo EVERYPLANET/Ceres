@@ -1,0 +1,53 @@
+extends: "PLAINS_ABSTRACT"
+id: "DIORITE_ISLANDS"
+color: 0x8db360
+noise-equation: "if(max(y-60, 0), -(if(max(y-88, 0), |y-88| + |noise3(x, y, z) * 3|, |y-88|/60)) - 0.25 + (noise2(x*2, z*2)/6.5) + 0.9 + |noise3(x, y, z) * 2|, ((-((y / 25)^2)) + 0.1) + |(noise2(x, z) / 3) + 15|)"
+#elevation:
+#  equation: "min(floor(((max(noise2(x/1.5, z/1.5)+0.25, 0)))*5), 3)*0.45 + if(max(noise2(x/1.5, z/1.5)+0.05, 0), (noise2(x*2,z*2))*0.55, 0)"
+  #equation: "((-((y / base)^2)) + 2/4)"
+#  interpolation: true
+
+slant:
+  threshold: 0.1
+  palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - BEDROCK_LITTLE: 4
+  - GRASSY: 255
+  - DIORITE: 85
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - GRASSY: 255
+  - DIORITE: 85
+
+
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 100
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 700
+
+trees:
+  - density: 1
+    items:
+      - OAK: 1
+    y:
+      min: 70
+      max: 100
+
+biome-noise:
+  type: OpenSimplex2
+  frequency: 0.01
+vanilla: PLAINS
+tags:
+  - "LAND"
+  - "RIVER_ERODE"

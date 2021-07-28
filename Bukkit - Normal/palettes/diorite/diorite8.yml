@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:andesite": 2
+      - "minecraft:diorite": 3
+    layers: 2
+id: "DIORITE8"
+noise:
+  type: OpenSimplex2
+  fractal:
+    octaves: 2
+    type: FBm
+  frequency: 0.8
+  salt: 4

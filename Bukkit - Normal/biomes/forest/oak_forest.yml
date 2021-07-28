@@ -32,12 +32,12 @@ flora:
       min: 62
       max: 84
     items:
-      - TALL_GRASS: 150
+      - TALL_GRASS: 70
       - GRASS: 750
       - POPPY: 50
       - ROSE_BUSH: 4
       - LILAC: 4
-      - LEAVES: 100
+      - LEAVES: 40
   - density: 30
     y:
       min: 9
@@ -60,6 +60,7 @@ flora:
       - CAVE_MOSS: 1
       - SMALL_DRIPLEAF: 1
       - HANGING_ROOTS: 1
+      - AZALEA: 1
       - SPORE_BLOSSOM: 1      
 trees:
   - density: 0.75

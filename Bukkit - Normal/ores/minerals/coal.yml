@@ -4,7 +4,7 @@ material-overrides:
   "minecraft:tuff": "minecraft:deepslate_coal_ore"
   "minecraft:obsidian": "minecraft:deepslate_coal_ore"
 size:
-  min: 17
-  max: 17
+  min: 3
+  max: 37
 extends: MINERAL
 id: "COAL_ORE"

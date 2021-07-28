@@ -1,0 +1,142 @@
+id "MUSHROOM6";
+
+num y = 0;
+num u = 0;
+num i = 0;
+for (u; u < 6; u = u + 1) {
+  if(check(u, y - 2, 0) != "LAND") {
+    fail;
+  }
+}
+for (i; u < 6; i = i + 1) {
+  if(check(0, y - 2, i) != "LAND") {
+    fail;
+  }
+}
+while(check(8, y, 8) != "LAND") {
+    if(y < 80){
+        fail;
+    }else{
+        y = y - 1;
+    }
+}
+
+
+
+block(1, y + 11, 11, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=true]");
+block(1, y + 11, 12, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(1, y + 12, 10, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=true]");
+block(1, y + 12, 11, "minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]");
+block(1, y + 13, 9, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(1, y + 13, 10, "minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]");
+block(1, y + 14, 8, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(1, y + 14, 9, "minecraft:white_terracotta");
+block(2, y + 0, 9, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(2, y + 11, 4, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(2, y + 11, 5, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(2, y + 11, 13, "minecraft:white_terracotta");
+block(2, y + 12, 12, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=true]");
+block(2, y + 12, 13, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(2, y + 13, 11, "minecraft:white_terracotta");
+block(2, y + 13, 12, "minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]");
+block(2, y + 14, 10, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(2, y + 14, 11, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(2, y + 15, 8, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(2, y + 15, 9, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(3, y + 0, 5, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 0, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(3, y + 1, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(3, y + 11, 3, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(3, y + 11, 6, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(3, y + 11, 14, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 12, 4, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(3, y + 12, 5, "minecraft:red_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(3, y + 12, 14, "minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]");
+block(3, y + 13, 12, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]");
+block(3, y + 13, 13, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(3, y + 14, 11, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 14, 12, "minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]");
+block(3, y + 15, 10, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(3, y + 15, 11, "minecraft:white_terracotta");
+block(3, y + 16, 8, "minecraft:white_terracotta");
+block(3, y + 16, 9, "minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]");
+block(4, y + 0, 6, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(4, y + 0, 7, "minecraft:mushroom_stem[down=false,east=false,north=false,south=false,up=false,west=true]");
+block(4, y + 0, 8, "minecraft:mushroom_stem[down=false,east=false,north=false,south=true,up=false,west=false]");
+block(4, y + 1, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=false]");
+block(4, y + 2, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(4, y + 3, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(4, y + 4, 8, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(4, y + 7, 6, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 8, 6, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 9, 5, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(4, y + 9, 6, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(4, y + 9, 10, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 10, 5, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 10, 10, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 11, 2, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(4, y + 11, 5, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 11, 7, "minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]");
+block(4, y + 11, 10, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(4, y + 11, 11, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(4, y + 12, 3, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(4, y + 12, 5, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]");
+block(4, y + 12, 6, "minecraft:red_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(4, y + 12, 11, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 12, 14, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(4, y + 13, 4, "minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]");
+block(4, y + 13, 11, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(4, y + 13, 12, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(4, y + 13, 14, "minecraft:white_terracotta");
+block(4, y + 14, 12, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 14, 13, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(4, y + 15, 12, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(4, y + 16, 9, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]");
+block(4, y + 16, 10, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]");
+block(4, y + 16, 11, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(4, y + 17, 9, "minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]");
+block(5, y + 0, 7, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=false]");
+block(5, y + 0, 8, "minecraft:mushroom_stem[down=false,east=true,north=false,south=false,up=false,west=false]");
+block(5, y + 0, 9, "minecraft:mushroom_stem[down=false,east=false,north=false,south=true,up=false,west=true]");
+block(5, y + 1, 7, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(5, y + 1, 8, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=false]");
+block(5, y + 2, 8, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=false]");
+block(5, y + 3, 8, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=false]");
+block(5, y + 4, 8, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=false]");
+block(5, y + 4, 9, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(5, y + 5, 8, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(5, y + 5, 9, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(5, y + 6, 7, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(5, y + 6, 8, "minecraft:mushroom_stem[down=false,east=true,north=false,south=false,up=false,west=true]");
+block(5, y + 6, 9, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(5, y + 7, 7, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 7, 9, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 8, 9, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 9, 9, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 11, 7, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(5, y + 12, 2, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(5, y + 12, 5, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 12, 6, "minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]");
+block(5, y + 13, 3, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(5, y + 13, 4, "minecraft:red_mushroom_block[down=true,east=false,north=false,south=false,up=true,west=false]");
+block(5, y + 13, 5, "minecraft:red_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(5, y + 13, 14, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]");
+block(5, y + 14, 14, "minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]");
+block(5, y + 15, 13, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(5, y + 16, 12, "minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]");
+block(5, y + 17, 9, "minecraft:white_terracotta");
+block(5, y + 17, 10, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(5, y + 17, 11, "minecraft:red_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(6, y + 0, 9, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=false]");
+block(6, y + 0, 10, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(6, y + 1, 10, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(6, y + 12, 3, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]");
+block(6, y + 12, 6, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(6, y + 13, 4, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]");
+block(6, y + 13, 5, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]");
+block(6, y + 14, 14, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(6, y + 15, 13, "minecraft:white_terracotta");
+block(6, y + 16, 12, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(6, y + 17, 11, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(7, y + 12, 4, "minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(7, y + 12, 5, "minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");

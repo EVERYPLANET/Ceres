@@ -1,0 +1,16 @@
+layers:
+  - materials:
+      - "minecraft:andesite": 3
+      - "minecraft:stone": 2
+    layers: 2    
+  - materials:
+      - "minecraft:stone": 2
+    layers: 1
+id: "DIORITE10"
+noise:
+  type: OpenSimplex2
+  fractal:
+    octaves: 2
+    type: FBm
+  frequency: 0.8
+  salt: 4

@@ -1,0 +1,13 @@
+id: "MAPLE"
+scripts:
+  - "maple_med01": 4
+  - "maple_med02": 4
+  - "maple_med03": 4
+  - "maple_reg01": 20
+  - "maple_reg02": 10
+  - "maple_tree": 15
+y-offset: -2
+
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"

@@ -52,6 +52,30 @@ flora:
       - TALL_GRASS: 150
       - GRASS: 700
       - SUNFLOWER: 20
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - DRIP_STALAGMITE_B: 1
+      - DRIP_STALAGMITE_L: 1
+      - DRIP_STALAGMITE_T: 1
+      - DRIP_STALACTITE_B: 1
+      - DRIP_STALACTITE_L: 1
+      - DRIP_STALACTITE_T: 1
+  - density: 30
+    y:
+      min: 9
+      max: 60
+    items:
+      - CAVE_VINES_L: 1
+      - CAVE_VINES_S: 1
+      - CAVE_GRASS: 1
+      - CAVE_MOSS: 1
+      - SMALL_DRIPLEAF: 1
+      - HANGING_ROOTS: 1
+      - AZALEA: 1
+      - SPORE_BLOSSOM: 1
 ocean:
   palette: "BLOCK:minecraft:water"
   level: 62

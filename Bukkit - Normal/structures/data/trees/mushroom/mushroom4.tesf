@@ -1,0 +1,63 @@
+id "MUSHROOM4";
+
+num y = 0;
+num u = 0;
+num i = 0;
+for (u; u < 6; u = u + 1) {
+  if(check(u, y - 2, 0) != "LAND") {
+    fail;
+  }
+}
+for (i; u < 6; i = i + 1) {
+  if(check(0, y - 2, i) != "LAND") {
+    fail;
+  }
+}
+while(check(8, y, 8) != "LAND") {
+    if(y < 80){
+        fail;
+    }else{
+        y = y - 1;
+    }
+}
+
+
+
+
+
+block(0, y + 8, 1, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]");
+block(0, y + 8, 2, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]");
+block(0, y + 8, 3, "minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(1, y + 8, 0, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]");
+block(1, y + 8, 1, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]");
+block(1, y + 8, 3, "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]");
+block(1, y + 8, 4, "minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(1, y + 9, 2, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]");
+block(2, y + 0, 1, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(2, y + 1, 2, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(2, y + 5, 2, "minecraft:mushroom_stem[down=false,east=false,north=true,south=true,up=false,west=true]");
+block(2, y + 6, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(2, y + 7, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(2, y + 8, 0, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]");
+block(2, y + 8, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(2, y + 8, 4, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]");
+block(2, y + 9, 1, "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]");
+block(2, y + 9, 2, "minecraft:brown_mushroom_block[down=true,east=false,north=false,south=false,up=true,west=false]");
+block(2, y + 9, 3, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]");
+block(3, y + 0, 1, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=false]");
+block(3, y + 0, 2, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=true]");
+block(3, y + 1, 1, "minecraft:mushroom_stem[down=false,east=true,north=true,south=false,up=false,west=true]");
+block(3, y + 1, 2, "minecraft:mushroom_stem[down=false,east=true,north=false,south=true,up=false,west=false]");
+block(3, y + 2, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 3, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 4, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(3, y + 5, 2, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=false]");
+block(3, y + 8, 0, "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]");
+block(3, y + 8, 1, "minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]");
+block(3, y + 8, 3, "minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]");
+block(3, y + 8, 4, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]");
+block(3, y + 9, 2, "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]");
+block(4, y + 0, 3, "minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]");
+block(4, y + 8, 1, "minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]");
+block(4, y + 8, 2, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]");
+block(4, y + 8, 3, "minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]");

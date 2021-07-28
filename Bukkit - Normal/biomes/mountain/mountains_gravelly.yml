@@ -65,6 +65,7 @@ flora:
       - CAVE_MOSS: 1
       - SMALL_DRIPLEAF: 1
       - HANGING_ROOTS: 1
+      - AZALEA: 1
       - SPORE_BLOSSOM: 1  
   - density: 8
     items:
